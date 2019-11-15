@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">cruddos</string>
+    <string name="title_activity_crud_departamento">CrudDepartamento</string>
 </resources>

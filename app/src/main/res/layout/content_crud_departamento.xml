@@ -4,16 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CrudDepartamento"
+    tools:showIn="@layout/activity_crud_departamento">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Crud clientes"
+        android:text="Crud Departamento"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="35sp"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="38dp">
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="36dp">
 
     <TextView
         android:id="@+id/textView4"
@@ -27,17 +29,17 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingresa tu apellido"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="277dp" />
+        android:text="Telefono"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="281dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingresa tu nombre"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="213dp" />
+        android:text="Nombre departamento"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="214dp" />
 
     <Button
         android:id="@+id/button"
@@ -113,10 +115,10 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="105dp"
-        android:layout_height="28dp"
-        android:text="Ingresa tu IDE"
-        tools:layout_editor_absoluteX="41dp"
+        android:layout_width="119dp"
+        android:layout_height="27dp"
+        android:text="IDE departamento"
+        tools:layout_editor_absoluteX="27dp"
         tools:layout_editor_absoluteY="151dp" />
 
     <Button
@@ -126,5 +128,6 @@
         android:backgroundTint="#2196F3"
         tools:layout_editor_absoluteX="-4dp"
         tools:layout_editor_absoluteY="681dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
